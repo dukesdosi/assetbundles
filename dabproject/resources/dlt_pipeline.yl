@@ -1,0 +1,7 @@
+resources:
+  pipelines:
+    demorepos_dlt_pipeline:
+      name: demorepos_dlt_pipeline
+      path: src/DLTPipelines/demorepos_dlt_pipeline
+      catalog: ${var.catalog}
+      schema: ${var.schema}
